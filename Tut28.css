@@ -1,0 +1,22 @@
+:root{
+    --primary-color: red;
+    --secondary-color: blanchedalmond;
+    --box-color:rgb(98,197,237);
+    --maxw: 333px
+}
+.box{
+    border: 2px solid var(--primary-color);
+    width:200px;
+    height:200px;
+    background-color: var(--secondary-color);
+    margin: 2px 9px;
+    box-shadow: 3px 3px var(--box-color);
+}
+.container{
+    display: flex;
+    max-width: var(--maxw);
+    margin: auto;
+    background-color:var(--secondary-color);
+    align-items: center;
+    justify-content: center;
+}

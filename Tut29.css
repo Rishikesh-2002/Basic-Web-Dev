@@ -1,0 +1,49 @@
+.container{
+    background-color: greenyellow;
+}
+.box{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* animation-name: rrr1; */
+    /* animation-name: rrr2; */
+    animation-fill-mode: backwards;
+    animation-iteration-count: 5;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-direction: reverse;
+
+    /* animation: rrr1 4s ease-in-out 3s 5 backwards; */
+}
+@keyframes rrr1{
+    0%{
+        top:0px;
+        left:0px;
+    }
+    25%{
+        top: 250px;
+        left:0px;
+    }
+    50%{
+        top:250px;
+        left:250px;
+    }
+    75%{
+        top:0px;
+        left:250px;
+    }
+    100%{
+        top:0px;
+        left:0px;
+    }
+}
+@keyframes rrr2{
+    from{
+        width: 250px;
+    }
+    to{
+        width: 1400px;
+    }
+}

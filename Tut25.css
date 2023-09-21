@@ -1,0 +1,36 @@
+.container{
+    display: block;
+    width:755px;
+    margin: auto;
+}
+input{
+    display:block;
+}
+input[type='text']{
+    padding: 12px;
+    border: 2px solid aqua;
+}
+a[target]{
+    font-size: 44px;
+    color: black;
+}
+a[target='_self']{
+    font-size: 20px;
+    color: purple;
+}
+input[type='email']{
+    color: yellow;
+    border:4px solid green;
+}
+/* li:nth-child(7){
+    color:red;
+} */
+li:nth-child(3n+2){
+    color:deepskyblue;
+}
+li:nth-child(odd){
+    background-color: bisque;
+}
+li:nth-child(even){
+    background-color: aquamarine;
+}

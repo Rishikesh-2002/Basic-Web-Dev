@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+.card{
+    padding:23px 12px;
+    margin:23px 12px;
+    background-color:beige;
+    border: 2px solid rgb(230, 210, 99);
+    /* box-shadow: 10px 13px 15px -1px rgb(230, 210, 99); */
+    box-shadow:inset  5px 13px 15px -1px rgb(230, 210, 99);
+}
+.card h2{
+    text-shadow:3px 4px 4px  #8ceee4;
+}

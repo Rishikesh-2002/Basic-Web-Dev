@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links and Buttons</title>
+    <style>
+        .container{
+            border: 4px solid rgb(197, 197, 238);
+            border-radius: 4px;
+            padding: 34px;
+            margin: 34px auto;
+            width:500px;
+            background-color: rgb(241, 237, 201);
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        .btn{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            background-color: rgb(179, 174, 241);
+            border:none;
+            padding:6px;
+            margin:5px;
+            font-size:13px;
+            cursor:pointer;
+            border-radius:6px;
+        }
+        .btn:hover{
+            color:rgb(37, 205, 183);
+            background-color: rgb(189, 243, 197);
+        }
+        a:hover{
+            color:rgb(227, 57, 85);
+            background-color: rgb(180, 249, 249);
+
+        }
+        a:visited{
+            background-color: yellow;
+        }
+        a:active{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont1" class="container">
+        <h1>This is my heading.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aut voluptates, veritatis repellat numquam temporibus, debitis ab eius, beatae commodi pariatur. Libero, assumenda eaque.</p>
+        <a href="https://www.google.com"  class="btn" target=blank>Read more...</a>
+        <button class="btn">Contact Us</button>
+    </div>
+
+</body>
+</html>

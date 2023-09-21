@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: darkgray;
+        }
+        .container{
+            background-color: wheat;
+            border:3px solid rgb(51, 169, 205);
+            /* We can set Margin/Padding like this */
+            /* padding-top: 79px;
+            padding-bottom: 79px;
+            padding-left: 34px;
+            padding-right: 79px;
+
+            margin-top: 79px;
+            margin-bottom: 79px;
+            margin-left: 34px;
+            margin-right: 50px;*/
+            
+            /*margin=top right bottom left;
+            padding=top right bottom left;*/
+
+            /*margin:23px 30px 20px 23px; 
+            padding:23px 30px 20px 23px;*/
+            
+            /*padding: y(bottom/top) x(left/right);
+            margin: y(bottom/top) x(left/right);*/
+            
+            padding:35px 19px;
+            margin:14px 19px;
+            width:533px;
+            border-radius: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my First Heading</h3><br>
+        <p id="first">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque iusto praesentium eius! Similique accusamus incidunt, doloremque ab illum velit nulla minima facilis distinctio delectus sed fugiat ad earum perspiciatis unde, rem vitae asperiores adipisci magnam libero. Et quod aliquam nesciunt?</p>
+    </div>
+    <div class="container">
+        <h3>This is my Second Heading</h3><br>
+        <p id="second">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque iusto praesentium eius! Similique accusamus incidunt, doloremque ab illum velit nulla minima facilis distinctio delectus sed fugiat ad earum perspiciatis unde, rem vitae asperiores adipisci magnam libero. Et quod aliquam nesciunt?</p>
+    </div>
+    <div class="container">
+        <h3>This is my Third Heading</h3><br>
+        <p id="third">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque iusto praesentium eius! Similique accusamus incidunt, doloremque ab illum velit nulla minima facilis distinctio delectus sed fugiat ad earum perspiciatis unde, rem vitae asperiores adipisci magnam libero. Et quod aliquam nesciunt?</p>
+    </div>
+</body>
+</html>

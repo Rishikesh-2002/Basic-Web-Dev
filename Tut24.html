@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+    <style>
+        h1{
+            background-color: red;
+            font-weight: bold;
+            color:black;
+            text-align: center;
+        }
+        div li p{
+            color:purple;
+            background-color: aquamarine;
+        }
+        div > p{
+            background-color:bisque;
+            color:brown;
+        }
+        div + p{
+            background-color: burlywood;
+            color:bisque;
+            font-weight: bold;            
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is another paragraph inside LI.</p></li>
+                <li>This will not get affected.</li>
+                <p>This is a para inside UL.</p>
+            </ul>
+            <p>This is a Paragraph.</p>
+        </div>
+        <p>This is another paragraph.</p>
+    </div>
+    <p>This is outermost paragraph.</p>
+</body>
+</html>
