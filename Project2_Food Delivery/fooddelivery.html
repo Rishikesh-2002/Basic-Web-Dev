@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)"  href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Borel&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balthazar&family=Borel&family=Oswald:wght@300&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../Project2/img/logo.jpg" alt="LOGO">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#clients-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam delectus nisi accusamus? Magni eligendi
+            accusantium commodi quae eum rem!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, iure.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="../Project2/img/fc.jpg" alt="Food Catering">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias debitis non incidunt
+                    veritatis harum
+                    illo magnam veniam. Magni quod repellendus delectus ut corporis blanditiis tempora doloremque quasi
+                    voluptatibus debitis. Tempora totam ducimus earum! Voluptatum?</p>
+            </div>
+
+            <div class="box">
+                <img src="../Project2/img/fo.jpg" alt="Food Catering">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias debitis non incidunt
+                    veritatis harum
+                    illo magnam veniam. Magni quod repellendus delectus ut corporis blanditiis tempora doloremque quasi
+                    voluptatibus debitis. Tempora totam ducimus earum! Voluptatum?</p>
+            </div>
+
+            <div class="box">
+                <img src="../Project2/img/fd.png" alt="Food Catering">
+                <h2 class="h-secondary center">Food Delivering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias debitis non incidunt
+                    veritatis harum
+                    illo magnam veniam. Magni quod repellendus delectus ut corporis blanditiis tempora doloremque quasi
+                    voluptatibus debitis. Tempora totam ducimus earum! Voluptatum?</p>
+            </div>
+        </div>
+    </section>
+    <section id="clients-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="../Project2/img/p1.svg" alt="Apple">
+            </div>
+            <div class="client-item">
+                <img src="../Project2/img/p2.svg" alt="Facebook">
+            </div>
+            <div class="client-item">
+                <img src="../Project2/img/p3.jpg" alt="Instagram">
+            </div>
+            <div class="client-item">
+                <img src="../Project2/img/p4.png" alt="Twitter">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="backend.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit Now">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyrigt &copy; www.myOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
+
+</body>
+
+</html>

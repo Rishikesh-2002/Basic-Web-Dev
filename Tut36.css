@@ -1,0 +1,26 @@
+.item{
+    border:2px solid purple;
+    background-color: bisque;
+    padding:23px;
+    text-align: center;
+}
+#navbar{
+    grid-area: navbar;
+}
+#section{
+    grid-area: section;
+}
+#aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+    'navbar navbar navbar'
+    'section section aside'
+    'footer footer footer';
+}

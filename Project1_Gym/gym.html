@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi's Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Borel&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background: url("IMG/gym.jpg");
+            color:white;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Balthazar', serif;
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+        .left img{
+            width: 130px;
+            filter: invert(50%);
+        
+
+        }
+        .left div{
+            margin: 0px;
+            text-align: center;
+            line-height: 19px;
+            font-size: 22px;
+        }
+        .mid{
+            display:block;
+            /* border: 2px solid green; */
+            width: 35%;
+            margin: 33px auto;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .mid li{
+            display: inline-block;
+            font-size: 18px;
+        }
+        .mid li a{
+            text-decoration: none;
+            color: rgb(84, 36, 156);
+            padding: 34px 20px;
+        }
+        .navbar li a:hover{
+            color:white;
+            text-decoration: underline;
+        }
+        .right{
+            /* border: 2px solid yellow; */
+            position:absolute;
+            top: 50px;
+            right: 14px;
+        }
+        .btn{
+            font-family: 'Balthazar', serif;
+            padding: 4px 20px;
+            font-size: 16px;
+            background-color: black;
+            color:white;
+            margin: 0px 9px;
+            border: 2px solid white;
+            border-radius: 4px; 
+            cursor:pointer;
+        }
+        .btn:hover{
+            background-color: blanchedalmond;
+            color:black;
+        }
+        .container{
+            border: 4px solid rgb(248, 249, 247);
+            margin: 106px 80px;
+            width: 38%;
+            border-radius: 20px;
+        }
+        .formgrp{
+            font-family: 'Balthazar', serif;
+            font-size: 20px;
+            padding: 6px;
+            text-align: center;
+            color:rgb(16, 135, 135);
+        }
+        .formgrp input{
+            font-family: 'Balthazar', serif;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid black;
+            margin: 2px auto;
+            border-radius: 6px;
+            
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="IMG/logo.png" alt="">
+            <div>Rishi's Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Fitness Calculators</a></li>
+            </ul>
+        </div>
+        <div class="right"> 
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Our Gym</h1>
+        <form action="noaction.php">
+            <div class="formgrp">
+               Name: <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="formgrp">
+                Gmail:<input type="email" placeholder="Enter Your Gmail">
+            </div>
+            <div class="formgrp">
+                Gender: Male<input type="radio" name="mygender">Female<input type="radio" name="mygender">
+            </div>
+            <div class="formgrp">
+                Phone No:<input type="text" placeholder="Enter Your Contact No">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

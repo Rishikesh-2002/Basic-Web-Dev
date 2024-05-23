@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and Objects</title>
+</head>
+<body>
+    <div class="container">
+        Simple HTML
+    </div>
+    <script>
+        let myvar=34;
+        let myvar2=null;
+        let myvar3="string"
+        let myvar4=undefined;
+        let myvar5=true;
+
+        let employee={
+            name:'Rishi',
+            age:21,
+            hobby:'cricket',
+        }
+        console.log(employee);
+        console.log(employee.age);
+        
+        let names=[1,23,4,"Rishi",undefined];
+        let name=new Array(41,55,48,"Rishi",null);
+        name=name.sort();
+        console.log(name);
+        console.log(names);
+
+        names=new Array(23);
+        console.log(names.length);
+        names.push("Pushed");
+        console.log(names);
+
+    </script>
+</body>
+</html>
